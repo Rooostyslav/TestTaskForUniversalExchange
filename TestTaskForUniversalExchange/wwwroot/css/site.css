@@ -1,0 +1,97 @@
+﻿a.navbar-brand {
+    white-space: normal;
+    text-align: center;
+}
+
+a {
+    color: #0366d6;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #1b6ec2;
+    border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    color: #fff;
+    background-color: #1b6ec2;
+    border-color: #1861ac;
+}
+
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+.border-top {
+    border-top: 1px solid #e5e5e5;
+}
+.border-bottom {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+    box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy {
+    font-size: 1rem;
+    line-height: inherit;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+}
+
+img.img-fluid {
+    height: 130px;
+}
+
+.portfolio-block {
+    word-wrap: break-word;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    white-space: normal;
+    height: 35px;
+}
+
+@media only screen and (max-width: 400px) {
+    .project-description {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 380px) {
+    .row .col-6 {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 204px) {
+    .footer {
+        height: 45px;
+    }
+}
+
+@media only screen and (max-width: 143px) {
+    .footer {
+        height: 65px;
+    }
+}

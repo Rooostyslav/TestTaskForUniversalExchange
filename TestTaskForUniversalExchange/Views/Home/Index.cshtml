@@ -1,0 +1,103 @@
+﻿@{
+    ViewData["Title"] = "Мой профиль";
+}
+
+<div class="container">
+	<p class="text-center font-weight-bold m-0" style="font-size: 20px;">Ростислав Федоренко</p>
+	<div class="row mt-3">
+		<p class="align-content-start font-weight-bold col-12" style="font-size: 18px;">Базовая информация:</p>
+		<div class="d-block col-6 portfolio-block">
+			<p class="font-weight-bold m-0">День народження: </p>
+			<p class="">28.04.2001</p>
+		</div>
+		<div class="d-block col-6 portfolio-block">
+			<p class="font-weight-bold m-0">Місце проживання: </p>
+			<p class="">м. Полтава</p>
+		</div>
+		<div class="d-block col-6 portfolio-block">
+			<p class="font-weight-bold m-0">Мобільний телефон: </p>
+			<p class="">+380 50 158 45 60</p>
+		</div>
+		<div class="d-block col-6 portfolio-block">
+			<p class="font-weight-bold m-0">Електронна пошта: </p>
+			<p class="">rooostyslav.fedorenko@gmail.com</p>
+		</div>
+		<div class="d-block col-6 portfolio-block">
+			<p class="font-weight-bold m-0">Скайп: </p>
+			<p class="">rooostyslav.fedorenko@gmail.com</p>
+		</div>
+		<div class="d-block col-6 portfolio-block">
+			<p class="font-weight-bold m-0">Github: </p>
+			<p class="">https://github.com/Rooostyslav</p>
+		</div>
+	</div>
+	<div class="row mt-3">
+		<p class="align-content-start font-weight-bold col-12" style="font-size: 18px;">Образование:</p>
+		<div class="d-block col-12 portfolio-block">
+			<p class="font-weight-bold m-0">ВУЗ:</p>
+			<p class="">Харьковский Национальный Университет Радиоелектроники</p>
+		</div>
+		<div class="d-block col-6 portfolio-block">
+			<p class="font-weight-bold m-0">Факультет: </p>
+			<p class="">Компютерные науки</p>
+		</div>
+		<div class="d-block col-6 portfolio-block">
+			<p class="font-weight-bold m-0">Специальность: </p>
+			<p class="">Програмная инженерия</p>
+		</div>
+		<div class="d-block col-6 portfolio-block">
+			<p class="m-0">
+				<strong>Курс:</strong>
+				4
+			</p>
+			<p class=""></p>
+		</div>
+	</div>
+	<div class="row mt-3">
+		<p class="align-content-start font-weight-bold col-12 mb-1" style="font-size: 18px;">Проекты:</p>
+		<div class="d-block col-6 portfolio-block ml-2 mb-2">
+			<p class="font-weight-bold m-0">Умный сад:</p>
+			<div class="ml-2 mb-2">
+				<p class="mb-1">Ссылки на части проекта</p>
+				<a class="btn btn-secondary m-1" href="https://github.com/Rooostyslav/SmartGarden-Backend">Бекенд</a>
+				<a class="btn btn-success m-1" href="https://github.com/Rooostyslav/SmartGarden-Frontend">Фронтенд</a>
+				<a class="btn btn-warning m-1" href="https://github.com/Rooostyslav/SmartGardenMobile">Мобильное</a>
+			</div>
+			<button type="button" class="btn btn-info ml-2 project-description" data-toggle="collapse"
+				data-target="#demo">
+				Описание проекта
+			</button>
+			<div id="demo" class="collapse border border-2 p-2 ml-4 mt-1 project-description">
+				Проект задумывался как система ухода за садом и насаждениями.
+				В этот проект входит бекенд который обрабатывает данные получаемые от фронтенда, мобильного приложения и умного устройства.
+				Фронтенд и мобильное приложение создано для взаимодействия пользователя с системой.
+				Само же умное устройство выполняет самую важную роль, уход за растениями в саду.
+				Проект создавался для сдачи курсовой работы 2-го курса.
+			</div>
+		</div>
+		<div class="d-block col-6 portfolio-block ml-2 mb-2">
+			<p class="font-weight-bold m-0">Медицинское назначение:</p>
+			<div class="ml-2 mb-2">
+				<p class="mb-1">Ссылки на части проекта</p>
+				<a class="btn btn-secondary m-1" href="https://github.com/Rooostyslav/MedicalPurpose_Backend">Бекенд</a>
+				<a class="btn btn-success m-1" href="https://github.com/Rooostyslav/MedicalPurpose_Frontend">Фронтенд</a>
+				<a class="btn btn-warning m-1" href="https://github.com/Rooostyslav/MedicalPurposeMobile">Мобильное</a>
+			</div>
+			<button type="button" class="btn btn-info ml-2 project-description" data-toggle="collapse"
+					data-target="#demo1">
+				Описание проекта
+			</button>
+			<div id="demo1" class="collapse border border-2 p-2 ml-4 mt-1 mb-2 project-description">
+				Проект задумывался как система для медицинской области.
+				Главная задача проекта это создание врачем назначения лечения для больного,
+				который потом сможет получить свое предназначение и посмотреть его на сайте или в мобильном приложении.
+				Также при созданиие назначения генерируется qr-код через который больной может получить все препараты в аптеке, 
+				предьявив qr-код с мобильного приложения.
+			</div>
+		</div>
+		<div class="d-block col-12 portfolio-block ml-2 mb-2">
+			<p class="font-weight-bold m-0">Множество других проектов:</p>
+			<a class="btn btn-secondary ml-2" href="https://github.com/Rooostyslav">Другие проекты</a>
+		</div>
+	</div>
+</div>
